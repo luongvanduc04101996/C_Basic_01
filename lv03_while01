@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+int a,b,phu;
+printf("Nhap 2 so:\n");
+scanf("%d%d",&a,&b);
+while(b!=0)
+{
+    phu=a%b;
+    a=b;
+    b=phu;
+}
+printf("UCLN:%d",a);
+}
