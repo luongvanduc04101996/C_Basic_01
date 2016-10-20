@@ -1,7 +1,7 @@
 Lương Văn Đức  
 **Báo cáo LÔP**  
 # **1.For**  
-Cú pháp:*`for(bt1;bt2;bt3) S;`*  
+**Cú pháp:** *`for(bt1;bt2;bt3) S;`*  
 **Trong đó**    
 * bt1:Giá trị khởi tạo của biến    
 * bt2:Điều kiện để có thực hiện vòng lập hay không    
@@ -14,7 +14,7 @@ for(i=1;i<=5;i++) printf("%d",i);
 in ra màn hình: 12345  
 ```  
 #**2.While**  
-Cú pháp:*`while(bt) S;`*  
+**Cú pháp:** *`while(bt) S;`*  
 **Trong đó**  
 * bt:Là biểu thức logic
 * S:Là lệnh hay dãy lệnh
@@ -27,7 +27,7 @@ while(i<=5) printf("%d",i); i++;
 in ra màn hình: 12345  
 ```  
 #**3.Do..While**  
-Cú pháp:*`do S while(bt);`*  
+**Cú pháp:** *`do S while(bt);`*  
 **Trong đó**  
 * bt:Là biểu thức logic
 * S:Là lệnh hay dãy lệnh  
