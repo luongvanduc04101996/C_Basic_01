@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+void main(){
+
+int i;
+
+printf("Cac so co 3 chu so thoa yeu cau de bai:\n");
+for(i=100;i<=999;i++)
+{
+    if(pow(i/100,3)+pow((i%100)/10,3)+pow((i%100)%10,3)==i)
+        printf("%d^3+%d^3+%d^3=%d\n",i/100,(i%100)/10,(i%100)%10,i);
+}
+}
