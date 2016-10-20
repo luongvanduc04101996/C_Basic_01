@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+void main(){
+int chuVi,i=0;
+printf("Nhap chu vi:\n");
+scanf("%d",&chuVi);
+while(4*i<=chuVi)
+{
+    if(4*i+chuVi%4==chuVi)
+       {
+        printf("Dien tich lon nhat:%.2f",pow((float)(4*i+chuVi%4)/4,2));
+        break;
+       }
+    i++;
+}
+}
