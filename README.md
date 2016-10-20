@@ -39,6 +39,6 @@ int i=0;
 do  
 printf("12345");
 while(i<0);  
-*Kết quả*  
+**Kết quả**  
 in ra màn hình: 12345  
 ```  
