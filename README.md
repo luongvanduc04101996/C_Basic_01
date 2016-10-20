@@ -19,6 +19,7 @@ Cú pháp:*`while(bt) S;`*
 * bt:Là biểu thức logic
 * S:Là lệnh hay dãy lệnh
 **Ví dụ**  
+
 ```  
 int i=1
 while(i<=5) printf("%d",i); i++;  
@@ -29,14 +30,15 @@ in ra màn hình: 12345
 Cú pháp:*`do S while(bt);`*  
 **Trong đó**  
 * bt:Là biểu thức logic
-* S:Là lệnh hay dãy lệnh
-**Chú ý:Lệnh S luôn được thực hiện ít nhất 1 lần trong câu lệnh*  
+* S:Là lệnh hay dãy lệnh  
+* *Chú ý:Lệnh S luôn được thực hiện ít nhất 1 lần trong câu lệnh*  
 **Ví dụ**  
+
 ```  
 int i=0;
 do  
 printf("12345");
 while(i<0);  
-**Kết quả**  
+*Kết quả*  
 in ra màn hình: 12345  
 ```  
